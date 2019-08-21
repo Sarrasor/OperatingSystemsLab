@@ -1,0 +1,1000 @@
+ 1019  git clone https://github.com/basler/pypylon.git
+ 1020  cd pypylon/
+ 1021  pip install .
+ 1022  pip2 install .
+ 1023  sudo pip2 install .
+ 1024  sudo pip3 install .
+ 1025  cd ../
+ 1026  import platform
+ 1027  python
+ 1028  python3
+ 1029  cd Downloads/
+ 1030  curl https://bootstrap.pypa.io/get-pip.py -o get-pip.py
+ 1031  python3 get-pip.py 
+ 1032  python3 get-pip.py sudo apt-get remove --purge python3.7
+ 1033  ./configure
+ 1034  make
+ 1035  make test
+ 1036  sudo make install
+ 1037  python3
+ 1038  ./opt/pylon5/bin/PylonViewerApp
+ 1039  /opt/pylon5/bin/PylonViewerApp
+ 1040  cd Documents/Education/SummerSchool2019/
+ 1041  ls
+ 1042  cd Tracking/
+ 1043  ls
+ 1044  python3 colorFilter
+ 1045  python3 colorFilter.py 
+ 1046  pip3 install opencv-python
+ 1047  python3
+ 1048  python3 colorFilter.py 
+ 1049  python3
+ 1050  readlink -f $(which python) | xargs -I % sh -c 'echo -n "%: "; % -V'
+ 1051  python3
+ 1052  python2
+ 1053  python3
+ 1054  python3 -m pip install
+ 1055  python3 -m pip
+ 1056  python3 -m pip installsudo apt-get install python3-pip
+ 1057  sudo apt-get install python3-pip
+ 1058  pip3
+ 1059  pip3 -v
+ 1060  p
+ 1061  ls
+ 1062  cd Downloads/
+ 1063  ls
+ 1064  cd Documents/
+ 1065  cd ../
+ 1066  cd Downloads/
+ 1067  pip3 install pypylon-1.4.0-cp34-cp34m-linux_x86_64.whl 
+ 1068  python3 pip
+ 1069  python3
+ 1070  python3 -version
+ 1071  python3 -v\
+ 1072  python3 -v
+ 1073  python3 -V
+ 1074  python3
+ 1075  python3 -m pip install --upgrade pip
+ 1076  python3
+ 1077  rostopic list
+ 1078  rostopic info turtle1/pose
+ 1079  rostopic echo turtle1/pose
+ 1080  rostopic echo turtle1
+ 1081  cd Documents/
+ 1082  ls
+ 1083  mkdir ROS
+ 1084  cd ROS
+ 1085  mkdir -p catkin_ws/src
+ 1086  cd catkin_ws/
+ 1087  catkin_make
+ 1088  ;s
+ 1089  ls
+ 1090  cd /opt/ros/melodic/lib/turtlesim/
+ 1091  ls
+ 1092  nano turtlesim_node
+ 1093  gedit turtlesim_node 
+ 1094  rospack list
+ 1095  rospack find turtle
+ 1096  rospack find turtlesim 
+ 1097  rosls 
+ 1098  rosls turtlesim/
+ 1099  rosls turtlesim
+ 1100  rospack
+ 1101  ros
+ 1102  rosversion
+ 1103  rosversion -h
+ 1104  rosversion roscpp
+ 1105  rosnode list
+ 1106  rostopic list
+ 1107  rosnode list
+ 1108  rosnode info turtlesim
+ 1109  rostopic info
+ 1110  rostopic ilist
+ 1111  rostopic list
+ 1112  rostopic echo /turtle1/color_sensor 
+ 1113  rqt_graph
+ 1114  rostopic list
+ 1115  rostopic hz /turtle1/color_sensor 
+ 1116  rostopic bw /turtle1/color_sensor 
+ 1117  rostopic info /turtle1/color_sensor 
+ 1118  rosmsg list
+ 1119  rosmsg show turtlesim/Pose
+ 1120  rosmsg show geometry_msgs/Twist
+ 1121  rosmsg show std_msgs/Header
+ 1122  cd Downloads/
+ 1123  ls
+ 1124  python3 get-pip.py 
+ 1125  sudo apt-get install python-pip
+ 1126  cd /usr/bin
+ 1127  ls
+ 1128  ls | grep python
+ 1129  roscore
+ 1130  sudo apt-get install ros-melodic-turtlesim
+ 1131  rosrun turtlesim turtlesim_node 
+ 1132  export | grep ROS
+ 1133  export
+ 1134  export | grep ROS
+ 1135  rosrun turtlesim turtlesim_node
+ 1136  rosrun turtlesim turtlesim_node __name:=A
+ 1137  roswtf
+ 1138  rosrun turtlesim turtle_teleop_key
+ 1139  rosrun turtlesim turtlesim_node __name:=B
+ 1140  ls /usr/bin/python*
+ 1141  alias python3='/usr/bin/python3.6'
+ 1142  . ~/.bashrc
+ 1143  python3 --version
+ 1144  python3
+ 1145  alias python='/usr/bin/python3.6'
+ 1146  . ~/.bashrc
+ 1147  python
+ 1148  rostopic echo /turtle1/cmd_vel 
+ 1149  cd Documents/ROS/book_ws/src/agitr/src/
+ 1150  g++ hello.cpp -o hr.out && ./hr.out
+ 1151  rosrun
+ 1152  rosrun turtlesim draw_square 
+ 1153  rosrun turtlesim turtlesim_node 
+ 1154  rviz
+ 1155  rqt_rviz
+ 1156  rviz
+ 1157  roscore
+ 1158  roscore
+ 1159  python
+ 1160  python3
+ 1161  python3 -m pip install numpy
+ 1162  python3
+ 1163  where python3.7
+ 1164  locate python3.7
+ 1165  whereis python3.7
+ 1166  sudo apt-get remove python3.7
+ 1167  rm -Rf /usr/local/bin/python3.7
+ 1168  sudo rm -Rf /usr/local/bin/python3.7
+ 1169  python3
+ 1170  python3.6
+ 1171  python3
+ 1172  sudo update-alternatives --config python
+ 1173  sudo update-alternatives  --set python /usr/bin/python3.6
+ 1174  cd Documents/ROS/
+ 1175  ls
+ 1176  cd catkin_ws/
+ 1177  ls
+ 1178  cd ../
+ 1179  rm -rf catkin_ws/
+ 1180  mkdir -p test/src
+ 1181  cd test/
+ 1182  cd src/
+ 1183  catkin_create_pkg test
+ 1184  ls
+ 1185  cd test/
+ 1186  cd ../
+ 1187  ls
+ 1188  cd ../
+ 1189  ls
+ 1190  cd src/
+ 1191  cd ../
+ 1192  cd test/
+ 1193  ls
+ 1194  cd src/
+ 1195  ls
+ 1196  cd test/
+ 1197  ls
+ 1198  cd cd ../
+ 1199  catkin_create_pkg teASD
+ 1200  l
+ 1201  cd ../
+ 1202  rm -rf test/
+ 1203  ls
+ 1204  mkdir book_ws
+ 1205  cd book_ws/
+ 1206  mkdir src
+ 1207  cd src
+ 1208  catkin_create_pkg agitr
+ 1209  ls
+ 1210  roscd log
+ 1211  rostopic list
+ 1212  rostopic echo imu
+ 1213  rostopic echo imu/RPY
+ 1214  cd ~/
+ 1215  cd Documents/Projects/Camera_Stabilization/Camera/catkin_ws/
+ 1216  source devel/setup.bash 
+ 1217  rostopic echo imu
+ 1218  rosrun rqt_plot rqt_plot
+ 1219  rosservice list 
+ 1220  rosparam list
+ 1221  rosrun rqt_console rqt_console
+ 1222  rosed roscpp Logger.msg
+ 1223  cd ~/
+ 1224  cd Documents/Projects/Camera_Stabilization/Camera/catkin_ws/
+ 1225  source devel/setup.bash 
+ 1226  source install/setup.bash 
+ 1227  rosrun rosserial_python serial_node.py /dev/ttyACM0
+ 1228  rosnode list
+ 1229  rosnode info /rosout 
+ 1230  rosrun rqt_plot rqt_plot
+ 1231  catkin_make
+ 1232  cd ../
+ 1233  catkin_make
+ 1234  ls
+ 1235  cd src/
+ 1236  ls
+ 1237  catkin_create_pkg beginner_tutorials std_msgs rospy roscpp
+ 1238  cd ../
+ 1239  catkin_make
+ 1240  . devel/setup.bash
+ 1241  roslist
+ 1242  rostopic
+ 1243  rostopic lits
+ 1244  rostopic list
+ 1245  roscd beginner_tutorials/
+ 1246  ls
+ 1247  rospack depends1 beginner_tutorials 
+ 1248  rospack -h
+ 1249  rospack depends beginner_tutorials 
+ 1250  cat
+ 1251  cat package.xml 
+ 1252  roscore
+ 1253  wget -qO - https://download.sublimetext.com/sublimehq-pub.gpg | sudo apt-key add -
+ 1254  echo "deb https://download.sublimetext.com/ apt/stable/" | sudo tee /etc/apt/sources.list.d/sublime-text.list
+ 1255  sudo apt-get update
+ 1256  sudo apt-get install sublime-merge
+ 1257  sublime-merge
+ 1258  wget -qO - https://download.sublimetext.com/sublimehq-pub.gpg | sudo apt-key add -
+ 1259  sudo apt-get install apt-transport-https
+ 1260  echo "deb https://download.sublimetext.com/ apt/stable/" | sudo tee /etc/apt/sources.list.d/sublime-text.list
+ 1261  sudo apt-get update
+ 1262  sudo apt-get install sublime-text
+ 1263  subl
+ 1264  sublime-text
+ 1265  sublime
+ 1266  subl
+ 1267  sublime
+ 1268  sublime-text
+ 1269  subl 
+ 1270  ls
+ 1271  cd ../
+ 1272  mkdir test_project
+ 1273  cd test_project/
+ 1274  git config --help
+ 1275  gi
+ 1276  git
+ 1277  git grep ad
+ 1278  git grep 
+ 1279  git grep .
+ 1280  git grep a
+ 1281  git log
+ 1282  git
+ 1283  git diff
+ 1284  git blame
+ 1285  git blame test
+ 1286  git blame test.txt
+ 1287  ./cedar
+ 1288  python -V
+ 1289  source devel/setup.bash 
+ 1290  roslaunch turtlebot3_gazebo turtlebot3_house.launch 
+ 1291  export TURTLEBOT3_MODEL=waffle_pi
+ 1292  roslaunch turtlebot3_gazebo turtlebot3_house.launch 
+ 1293  python -v
+ 1294  python -V
+ 1295  python
+ 1296  python3
+ 1297  export
+ 1298  export TURTLEBOT3_MODEL=waffle_pi
+ 1299  roslaunch turtlebot3_gazebo turtlebot3_empty_world.launch
+ 1300  cd Documents/ROS/
+ 1301  ls
+ 1302  cd turtle_ws/
+ 1303  ls
+ 1304  source devel/setup.bash 
+ 1305  roslaunch turtlebot3_gazebo turtlebot3_empty_world.launch
+ 1306  roslaunch turtlebot3_gazebo turtlebot3_world.launch 
+ 1307  roslaunch turtlebot3_gazebo turtlebot3_gazebo_rviz.launch
+ 1308  ./royaleviewer.sh
+ 1309  cd ../
+ 1310  catkin_make
+ 1311  rosrun rviz rviz
+ 1312  cd Documents/Projects/Camera_Stabilization/
+ 1313  ls
+ 1314  cd Camera/
+ 1315  ls
+ 1316  cd catkin_ws/
+ 1317  ls
+ 1318  source install/setup.bash 
+ 1319  rostopic list
+ 1320  roslaunch pico_flexx_driver pico_flexx_driver.launch publish_tf:=true
+ 1321  roslaunch pico_flexx_driver pico_flexx_driver.launch use_case:=8
+ 1322  roslaunch pico_flexx_driver pico_flexx_driver.launch use_case:=5
+ 1323  roslaunch pico_flexx_driver pico_flexx_driver.launch use_case:=5roslaunch pico_flexx_driver pico_flexx_driver.launch publish_tf:=true
+ 1324  roslaunch pico_flexx_driver pico_flexx_driver.launch publish_tf:=true
+ 1325  source devel/setup.bash
+ 1326  roslaunch pico_flexx_driver pico_flexx_driver.launch publish_tf:=true
+ 1327  cd Documents/Projects/Camera_Stabilization/Camera/
+ 1328  roslaunch pico_flexx_driver pico_flexx_driver.launch publish_tf:=true
+ 1329  cd catkin_ws/
+ 1330  source install/setup.bash 
+ 1331  roslaunch pico_flexx_driver pico_flexx_driver.launch publish_tf:=true
+ 1332  roslaunch rviz rviz
+ 1333  roslaunch rviz
+ 1334  roslaunch rviz rviz
+ 1335  rosrun rviz rviz
+ 1336  rosrun rqt_reconfigure rqt_reconfigure
+ 1337  rqt
+ 1338  rosrun rqt_reconfigure rqt_reconfigure
+ 1339  lsusb
+ 1340  rosrun image_view image_view
+ 1341  rosrun image_view image_view image:=/pico_flexx/image_mono16
+ 1342  rosrun image_view image_view image:=/pico_flexx/image_mono8
+ 1343  cd Documents/Projects/Camera_Stabilization/Camera/catkin_ws/
+ 1344  source install/setup.bash 
+ 1345  roslaunch pico_flexx_driver pico_flexx_driver.launch publish_tf:=true
+ 1346  rosrun rviz rviz
+ 1347  ls
+ 1348  source devel/setup.bash 
+ 1349  source dintsall/setup.bash 
+ 1350  source intsall/setup.bash 
+ 1351  source install/setup.bash 
+ 1352  rosrun rosserial_arduino serial_node.py _port:=/dev/ttyUSB0
+ 1353  lsusb
+ 1354  lsusb -l
+ 1355  lsusb -v
+ 1356  lsusb -l
+ 1357  lsusb -s
+ 1358  lsusb -D
+ 1359  lsblk
+ 1360  ls -l /dev/ttyACM*
+ 1361  rosrun rosserial_arduino serial_node.py _port:=/dev/ttyACM0
+ 1362  rosrun rosserial_arduino serial_node.py _port:=/dev/ttyACM1
+ 1363  rosrun rosserial_arduino serial_node.py _port:=/dev/ttyACM0
+ 1364  ls -l /dev/ttyACM
+ 1365  ls -l /dev/
+ 1366  ls -l /dev/ttyACM
+ 1367  ls -l /dev/ttyACM0
+ 1368  ls -l /dev/ttyACM
+ 1369  ls -l /dev/ttyACM0
+ 1370  ls -l /dev/ttyACM
+ 1371  ls -l /dev/ttyACM*
+ 1372  rosrun rosserial_arduino serial_node.py _port:=/dev/ttyACM0
+ 1373  rosrun rqt_reconfigure rqt_reconfigure 
+ 1374  rostopic list
+ 1375  rostopic hz
+ 1376  rostopic hz /imu /
+ 1377  source devel/setup.bash 
+ 1378  rostopic hz /imu
+ 1379  rostopic hz /pico_flexx/image_mono8
+ 1380  rostopic list
+ 1381  rostopic info
+ 1382  rostopic info /pico_flexx/image_mono8
+ 1383  rostopic info /pico_flexx/image_mono16
+ 1384  rostopic echo imu_rpy/RPY
+ 1385  rostopic info imu_rpy/RPY
+ 1386  rostopic list
+ 1387  rostopic info imu
+ 1388  rostopic hz imu_rpy/RPY
+ 1389  rostopic hz imu
+ 1390  rostopic echo imu
+ 1391  cd Documents/Projects/Camera_Stabilization/Camera/catkin_ws/
+ 1392  source devel/setup.bash 
+ 1393  roslaunch pico_flexx_driver pico_flexx_driver.launch publish_tf:=true
+ 1394  rosrun rqt_reconfigure rqt_reconfigure 
+ 1395  ls
+ 1396  python get_image.py 
+ 1397  python  onlineVignettingCorrection.py 
+ 1398  python n get_image.py 
+ 1399  python get_image.py 
+ 1400  python  onlineVignettingCorrection.py 
+ 1401  pypython onlineVingettingSlider.py 
+ 1402  python onlineVingettingSlider.py 
+ 1403  python onlineVignettingCorrection.py 
+ 1404  rqt
+ 1405  rosrun rqt_reconfigure rqt_reconfigure 
+ 1406  cd Documents/Projects/Camera_Stabilization/Camera/catkin_ws/
+ 1407  roslaunch pico_flexx_driver pico_flexx_driver.launch publish_tf:=true
+ 1408  source devel/setup.bash 
+ 1409  roslaunch pico_flexx_driver pico_flexx_driver.launch publish_tf:=true
+ 1410  git clone https://github.com/Lupasic/strirus_tof_camera_stabilization.git
+ 1411  git ststus
+ 1412  git status
+ 1413  git add .
+ 1414  git commit
+ 1415  git status
+ 1416  git push
+ 1417  git status
+ 1418  python onlineVignStabilize.py 
+ 1419  git status
+ 1420  git add .
+ 1421  git branch
+ 1422  git branch devel
+ 1423  git branch
+ 1424  git checkout devel 
+ 1425  git status
+ 1426  git add .
+ 1427  git commit
+ 1428  git push
+ 1429  git push --set-upstream origin devel
+ 1430  git status
+ 1431  rosrun rqt_reconfigure rqt_reconfigure 
+ 1432  git status
+ 1433  git add 
+ 1434  git add .
+ 1435  git commit -a
+ 1436  git push
+ 1437  git pull
+ 1438  git branch
+ 1439  git branch develop
+ 1440  git checkout develop 
+ 1441  git add .
+ 1442  git commit -a
+ 1443  git push
+ 1444  git push origin
+ 1445  git push --set-upstream origin develop
+ 1446  ls
+ 1447  cd ..
+ 1448  ls
+ 1449  cd AllCode/l
+ 1450  cd AllCode/
+ 1451  ls
+ 1452  cd ArduinoIMU/
+ 1453  ls
+ 1454  python ROSSubscriber.py 
+ 1455  cd ../
+ 1456  ls
+ 1457  cd ImageProcessing/
+ 1458  ls
+ 1459  python onlineVignettingCorrection.py 
+ 1460  roscore
+ 1461  ls
+ 1462  roslaunch pico_flexx_driver pico_flexx_driver.launch publish_tf:=true
+ 1463  source devel/setup.bash 
+ 1464  source install/setup.bash 
+ 1465  roslaunch pico_flexx_driver pico_flexx_driver.launch publish_tf:=true
+ 1466  cd Documents/VPN/
+ 1467  ls
+ 1468  cd Free-OpenVPN-Connect-SCRIPT-for-Linux-2.0.0/
+ 1469  ls
+ 1470  ./FreeVPNconnect.sh 
+ 1471  npm install
+ 1472  rqt_bag
+ 1473  rqt_plot
+ 1474  sudo apt-key adv --keyserver keys.gnupg.net --recv-key C8B3A55A6F3EFCDE || sudo apt-key adv --keyserver hkp://keyserver.ubuntu.com:80 --recv-key C8B3A55A6F3EFCDE
+ 1475  sudo add-apt-repository "deb http://realsense-hw-public.s3.amazonaws.com/Debian/apt-repo bionic main" -u
+ 1476  sudo apt-get install librealsense2-dkms
+ 1477  sudo apt-get install librealsense2-utils
+ 1478  sudo apt-get install librealsense2-dev
+ 1479  ls
+ 1480  cd launch/
+ 1481  ls
+ 1482  roslaunch camera_with_sending_obj_coord.launch 
+ 1483  realsense-viewer
+ 1484  roslaunch camera_with_sending_obj_coord.launch 
+ 1485  roslaunch realsense2_camera rs_camera.launch
+ 1486  catkin_make
+ 1487  ls
+ 1488  mkdir src
+ 1489  cd src
+ 1490  git clone https://github.com/IntelRealSense/realsense-ros.git
+ 1491  cd realsense-ros/
+ 1492  git checkout `git tag | sort -V | grep -P "^\d+\.\d+\.\d+" | tail -1`
+ 1493  cd ../
+ 1494  catkin_make
+ 1495  ls
+ 1496  rostopic echo /camera_pixel_to_camera_obj /
+ 1497  rostopic echo /camera_pixel_to_camera_obj /
+ 1498  roscore
+ 1499  git status
+ 1500  git branch presentation_progress
+ 1501  git status
+ 1502  git chekout presentation_progress
+ 1503  git checkout presentation_progress
+ 1504  git status
+ 1505  python -V
+ 1506  python3 red_ball_tracker.py 
+ 1507  python red_ball_tracker.py 
+ 1508  ls
+ 1509  realsense-viewer
+ 1510  sudo apt-get purge librealsense2
+ 1511  sudo apt-get purge librealsense2-dkms 
+ 1512  sudo apt-get purge librealsense2-udev-rules 
+ 1513  dpkg -l | grep "realsense" | cut -d " " -f 3 | xargs sudo dpkg --purge
+ 1514  sudo apt-get update
+ 1515  sudo apt-get upgrade
+ 1516  sudo apt-get update
+ 1517  sudo apt-get upgrade
+ 1518  sudo apt autoremove
+ 1519  sudo nautilus
+ 1520  ls
+ 1521  ./install.sh 
+ 1522  rostopic list
+ 1523  ls
+ 1524  realsense-viewer
+ 1525  sudo apt-get install librealsense2-dev
+ 1526  roslaunch realsense2_camera rs_camera.launch
+ 1527  ls
+ 1528  cd Documents/Projects/Camera_Stabilization/Camera/catkin_ws/
+ 1529  roslaunch pico_flexx_driver pico_flexx_driver.launch 
+ 1530  source devel/setup.bash 
+ 1531  roslaunch realsense2_camera rs_camera.launch
+ 1532  rqt
+ 1533  source install/setup.bash 
+ 1534  source devel/setup.bash 
+ 1535  roslaunch realsense2_camera rs_camera.launch
+ 1536  catkin build
+ 1537  catkin_make
+ 1538  mkdir src
+ 1539  catkin_make
+ 1540  sudo apt-get install librealsense2-dkms
+ 1541  sudo apt-get install librealsense2-utils
+ 1542  catkin_make
+ 1543  cd src
+ 1544  git clone https://github.com/IntelRealSense/realsense-ros.git
+ 1545  cd realsense-ros/
+ 1546  git checkout `git tag | sort -V | grep -P "^\d+\.\d+\.\d+" | tail -1`
+ 1547  cd ../
+ 1548  catkin_make
+ 1549  roslaunch realsense2_camera rs_camera.launch
+ 1550  cd src/
+ 1551  git clone https://github.com/Lupasic/catching_robot_dynamic_field.git
+ 1552  cd catching_robot_dynamic_field/
+ 1553  ls
+ 1554  cd launch/
+ 1555  cd ../
+ 1556  sudo apt-get install ros-melodic-catkin
+ 1557  catkin build
+ 1558  echo "source /opt/ros/melodic/setup.bash" >> ~/.bashrc
+ 1559  source ~/.bashrc
+ 1560  catkin build
+ 1561  sudo apt-get install ros-melodic-catkin python-catkin-tools 
+ 1562  catkin build
+ 1563  ls
+ 1564  rm -rf build
+ 1565  catkin build
+ 1566  ls
+ 1567  rm -rf devel/
+ 1568  ls
+ 1569  cd src
+ 1570  ls
+ 1571  cd ../
+ 1572  catkin build
+ 1573  ls
+ 1574  source install/setup.bash 
+ 1575  source devel/setup.bash 
+ 1576  roslaunch catching_robot_dynamic_field camera_with_sending_obj_coord
+ 1577  roslaunch  catching_robot_dynamic_field camera_with_sending_obj_coord.launch 
+ 1578  catkin build
+ 1579  roslaunch  catching_robot_dynamic_field camera_with_sending_obj_coord.launch 
+ 1580  source devel/setup.bash 
+ 1581  roslaunch realsense2_camera rs_camera.launch 
+ 1582  roslaunch  catching_robot_dynamic_field camera_with_sending_obj_coord.launch 
+ 1583  roslaunch realsense2_camera rs_camera.launch 
+ 1584  roslaunch realsense2_camera rs_camera.launch align_depth:=true
+ 1585  rqt
+ 1586  rostopic list
+ 1587  rostopic hz /camear/color/image_raw
+ 1588  rostopic hz /camera/color/image_raw
+ 1589  rviz
+ 1590  git status
+ 1591  git checkout presentation_progress 
+ 1592  git status
+ 1593  sudo apt-get install librealsense2-dkms
+ 1594  sudo apt-get purge librealsense2-dkms
+ 1595  sudo apt-get install intel-realsense-dfu*
+ 1596  echo 'deb http://realsense-hw-public.s3.amazonaws.com/Debian/apt-repo xenial main' | sudo tee /etc/apt/sources.list.d/realsense-public.list
+ 1597  sudo apt-key adv--keyserverkeys.gnupg.net --recv-key 6F3EFCDE
+ 1598  sudo apt-get update
+ 1599  sudo apt-get install intel-realsense-dfu*
+ 1600  pip3 install rospy
+ 1601  pip install rospy
+ 1602  pip2 install rospy
+ 1603  pip3 install rospy
+ 1604  cd Documents/Education/SummerSchool2019/catching_ws/
+ 1605  ls
+ 1606  source devel/setup.bash 
+ 1607  roslaunch  catching_robot_dynamic_field camera_with_sending_obj_coord.launch 
+ 1608  roslaunch realsense2_camera rs_camera.launch align_depth:=true
+ 1609  roslaunch  catching_robot_dynamic_field camera_with_sending_obj_coord.launch 
+ 1610  roslaunch realsense2_camera rs_camera.launch align_depth:=true
+ 1611  roslaunch  catching_robot_dynamic_field camera_with_sending_obj_coord.launch 
+ 1612  sudo update-alternatives --config python
+ 1613  sudo update-alternatives --install /usr/bin/python python /usr/bin/python3.4 1
+ 1614  sudo update-alternatives --install /usr/bin/python python /usr/bin/python3.6 2
+ 1615  sudo update-alternatives --config python
+ 1616  sudo update-alternatives  --set python /usr/bin/python3.6
+ 1617  python -V
+ 1618  roslaunch  catching_robot_dynamic_field camera_with_sending_obj_coord.launch 
+ 1619  pip3 install rospkg
+ 1620  sudo pip3 install rospkg
+ 1621  roslaunch  catching_robot_dynamic_field camera_with_sending_obj_coord.launch 
+ 1622  catkin config -DPYTHON_EXECUTABLE=/usr/bin/python3 -DPYTHON_INCLUDE_DIR=/usr/include/python3.6m -DPYTHON_LIBRARY=/usr/lib/x86_64-linux-gnu/libpython3.6m.so
+ 1623  catkin config --install
+ 1624  catkin config -DPYTHON_EXECUTABLE=/usr/bin/python3 -DPYTHON_INCLUDE_DIR=/usr/include/python3.6m -DPYTHON_LIBRARY=/usr/lib/x86_64-linux-gnu/libpython3.6m.so
+ 1625  sudo apt-get install python-catkin-tools python3-dev python3-numpy
+ 1626  sudo apt-get install python-catkin-tools==0.4.5 python3-dev python3-numpy
+ 1627  sudo apt-get install python-catkin-tools=0.4.5 python3-dev python3-numpy
+ 1628  catkin config -DPYTHON_EXECUTABLE=/usr/bin/python3 -DPYTHON_INCLUDE_DIR=/usr/include/python3.6m -DPYTHON_LIBRARY=/usr/lib/x86_64-linux-gnu/libpython3.6m.so
+ 1629  pip install catkin_tools
+ 1630  sudo pip install catkin_tools
+ 1631  sudo pip2 install catkin_tools
+ 1632  sudo pip3 install catkin_tools
+ 1633  sudo pip install catkin_tools
+ 1634  catkin config -DPYTHON_EXECUTABLE=/usr/bin/python3 -DPYTHON_INCLUDE_DIR=/usr/include/python3.6m -DPYTHON_LIBRARY=/usr/lib/x86_64-linux-gnu/libpython3.6m.so
+ 1635  source devel/setup.bash 
+ 1636  roslaunch  catching_robot_dynamic_field camera_with_sending_obj_coord.launch 
+ 1637  catkin build
+ 1638  catkin_make
+ 1639  source devel/setup.bash 
+ 1640  roslaunch  catching_robot_dynamic_field camera_with_sending_obj_coord.launch 
+ 1641  alias python="/usr/bin/python2.7"
+ 1642  python -V
+ 1643  roslaunch  catching_robot_dynamic_field camera_with_sending_obj_coord.launch 
+ 1644  sudo apt update
+ 1645  sudo apt install python3-catkin-pkg-modules python3-rospkg-modules python3-empy
+ 1646  wstool init
+ 1647  catkin_make --cmake-args             -DCMAKE_BUILD_TYPE=Release             -DPYTHON_EXECUTABLE=/usr/bin/python3             -DPYTHON_INCLUDE_DIR=/usr/include/python3.6m             -DPYTHON_LIBRARY=/usr/lib/x86_64-linux-gnu/libpython3.6m.so
+ 1648  source devel/setup.bash 
+ 1649  roslaunch  catching_robot_dynamic_field camera_with_sending_obj_coord.launch 
+ 1650  ls /usr/bin/python*
+ 1651  python -V
+ 1652  . ~/.bashrc
+ 1653  python --version
+ 1654  roslaunch  catching_robot_dynamic_field camera_with_sending_obj_coord.launch 
+ 1655  source devel/setup.bash 
+ 1656  roslaunch  catching_robot_dynamic_field camera_with_sending_obj_coord.launch 
+ 1657  rqt
+ 1658  realsense-viewer 
+ 1659  rostopic hz /camera
+ 1660  rostopic hz /camera/color/image_raw
+ 1661  rostopic hz /camera/color/image_raw color_fps:=60
+ 1662  rostopic hz /camera/color/image_raw
+ 1663  rqt
+ 1664  cd /usr/lib/python3/dist-packages
+ 1665  sudo ln -s /usr/local/lib/python3.6/dist-packages/cv2.cpython-34m.so
+ 1666  python
+ 1667  sudo ln -s /usr/local/lib/python3.4/dist-packages/cv2.cpython-34m.so
+ 1668  sudo ln -s /usr/local/lib/python3.6/dist-packages/cv2.cpython-34m.so
+ 1669  python
+ 1670  sudo apt-get install python-catkin-tools python3-dev python3-numpy
+ 1671  sudo update-alternatives --config python
+ 1672  python -V
+ 1673  sudo update-alternatives  --set python /usr/bin/python2.7
+ 1674  sudo update-alternatives --config pythonpyt
+ 1675  sudo update-alternatives --install /usr/bin/python python /usr/bin/python2.7
+ 1676  sudo update-alternatives --install /usr/bin/python python /usr/bin/python2.7.1
+ 1677  python -V
+ 1678  sudo update-alternatives --config python
+ 1679  grep /usr/bin/python
+ 1680  cd /usr/bin/
+ 1681  ls
+ 1682  grep python
+ 1683  grep python*
+ 1684  ls
+ 1685  python
+ 1686  python2
+ 1687  sudo update-alternatives --install /usr/bin/python python /usr/bin/python2.7.15
+ 1688  sudo update-alternatives --install /usr/bin/python python /usr/bin/python3.4 1
+ 1689  sudo update-alternatives --install /usr/bin/python python /usr/bin/python3.6 2
+ 1690  sudo update-alternatives --install /usr/bin/python python /usr/bin/python2.7 15
+ 1691  sudo update-alternatives  --set python /usr/bin/python2.7.15
+ 1692  sudo update-alternatives --install /usr/bin/python python /usr/bin/python2.7 15
+ 1693  sudo update-alternatives --install /usr/bin/python python /usr/bin/python2.7
+ 1694  sudo update-alternatives  --set python /usr/bin/python2.7.15
+ 1695  sudo update-alternatives --install /usr/bin/python python /usr/bin/python2.7 15
+ 1696  python -V
+ 1697  ros hz /im_from_myau
+ 1698  rostopic hz /im_from_myau
+ 1699  rostopic list
+ 1700  realsense-viewer 
+ 1701  source devel/setup.bash 
+ 1702  ls
+ 1703  roslaunch  catching_robot_dynamic_field camera_with_sending_obj_coord.launch 
+ 1704  roslaunch aruco_detect aruco_detect.launch 
+ 1705  roslaunch  catching_robot_dynamic_field camera_with_sending_obj_coord.launch 
+ 1706  roscd aruco_detect/
+ 1707  ls
+ 1708  cd launch/
+ 1709  ls
+ 1710  gedit aruco_detect.launch 
+ 1711  rostopic list
+ 1712  rostopic echo /camera_pixel_to_camera_obj
+ 1713  sudo nautilus
+ 1714  roscore
+ 1715  roscd realsense2
+ 1716  git status
+ 1717  git push
+ 1718  git status
+ 1719  cd Documents/Education/SummerSchool2019/catching_ws/
+ 1720  cd src/catching_robot_dynamic_field/scripts/
+ 1721  pip install urx
+ 1722  sudo pip install urx
+ 1723  ls
+ 1724  python test_ur.py 
+ 1725  pip2 install urx
+ 1726  python test_ur.py 
+ 1727  sudo nautilus
+ 1728  cd Documents/Education/SummerSchool2019/
+ 1729  cd catching_ws
+ 1730  source devel/setup.bash 
+ 1731  roslaunch  catching_robot_dynamic_field camera_with_sending_obj_coord.launch 
+ 1732  catkin build
+ 1733  catkin_make
+ 1734  roslaunch  catching_robot_dynamic_field camera_with_sending_obj_coord.launch 
+ 1735  source devel/setup.bash 
+ 1736  roslaunch  catching_robot_dynamic_field camera_with_sending_obj_coord.launch 
+ 1737  rqt
+ 1738  roscore
+ 1739  rqt
+ 1740  rviz
+ 1741  roscd aruco_detect/ 
+ 1742  ls
+ 1743  cd launch/
+ 1744  ls
+ 1745  gedit aruco_detect.launch 
+ 1746  ls
+ 1747  gedit aruco_detect.launch 
+ 1748  rostopic echo /camera_pixel_to_camera_obj
+ 1749  rostopic list
+ 1750  rostopic echo /camera_pixel_to_camera_obj
+ 1751  rostopic list
+ 1752  rosnode
+ 1753  rosnode list
+ 1754  rosnode info aruco_delay
+ 1755  rostopic list
+ 1756  rostopic
+ 1757  rostopic list
+ 1758  rostopic echo /red_ball_xyz
+ 1759  rostopic list
+ 1760  rostopic echo /red_ball_xyz 
+ 1761  git clone https://github.com/pal-robotics/aruco_ros.git
+ 1762  rrostopic list
+ 1763  rostopic list
+ 1764  cd src/aruco_ros/
+ 1765  ls
+ 1766  cd launch/
+ 1767  ls
+ 1768  gedit marker_publisher.launch 
+ 1769  roscd aruco_detect/launch/
+ 1770  gedit aruco_detect.launch
+ 1771  source devel/setup.bash 
+ 1772  roslaunch realsense2_camera rs_camera.launch 
+ 1773  cd Documents/Education/SummerSchool2019/
+ 1774  mkdir ArUco
+ 1775  cd ArUco/
+ 1776  git clone https://github.com/vprooks/simple_aruco_detector.git
+ 1777  cd simple_aruco_detector/
+ 1778  ls
+ 1779  cd ../
+ 1780  mkdir -p aruco_ws/src
+ 1781  ls
+ 1782  mv simple_aruco_detector/ aruco_ws/src
+ 1783  ls
+ 1784  cd aruco_ws/
+ 1785  ls
+ 1786  catkin build
+ 1787  ls
+ 1788  catkin build
+ 1789  python -V
+ 1790  catkin build
+ 1791  ls
+ 1792  rm -rf build
+ 1793  rm -rf devel
+ 1794  rm -rf logs
+ 1795  cd src/
+ 1796  rm -rf simple_aruco_detector
+ 1797  nautilus .
+ 1798  cd ../
+ 1799  ls
+ 1800  catkin build
+ 1801  ls
+ 1802  cd src/
+ 1803  ls
+ 1804  cd ../
+ 1805  cd src/
+ 1806  ls
+ 1807  cd aruco_ros
+ 1808  ls
+ 1809  cd launch/
+ 1810  ls
+ 1811  gedit single.launch [B
+ 1812  roslaunch single.launch 
+ 1813  cd ../
+ 1814  ls
+ 1815  cd src/
+ 1816  ls
+ 1817  cd ../
+ 1818  roslaunch aruco_detect aruco_detect.launch 
+ 1819  source devel/setup.bb
+ 1820  source devel/setup.bash 
+ 1821  roslaunch aruco_ros single.launch 
+ 1822  roslaunch aruco_ros marker_publisher.launch 
+ 1823  roslaunch aruco_ros single.launch 
+ 1824  rqt
+ 1825  git status
+ 1826  git add -a
+ 1827  git add a
+ 1828  git status
+ 1829  git add
+ 1830  git add .
+ 1831  git commit
+ 1832  cd Documents/Education/SummerSchool2019/catching_ws/src/catching_robot_dynamic_field/scripts/
+ 1833  python test_ur.py 
+ 1834  cd ../
+ 1835  source devel/setup.bash 
+ 1836  roslaunch  catching_robot_dynamic_field camera_with_sending_obj_coord.launch 
+ 1837  clear
+ 1838  roslaunch  catching_robot_dynamic_field camera_with_sending_obj_coord.launch 
+ 1839  roslaunch  catching_robot_dynamic_field camera_with_sending_obj_coord.launch
+ 1840  clear
+ 1841  roslaunch  catching_robot_dynamic_field camera_with_sending_obj_coord.launch
+ 1842  clear
+ 1843  ads
+ 1844  asd
+ 1845  roslaunch  catching_robot_dynamic_field camera_with_sending_obj_coord.launch
+ 1846  ls
+ 1847  roslaunch  catching_robot_dynamic_field camera_with_sending_obj_coord.launch
+ 1848  rviz
+ 1849  ls
+ 1850  rqt
+ 1851  rosropic hz /tracking_image
+ 1852  rostopic hz /tracking_image
+ 1853  rviz
+ 1854  cd Documents/Education/SummerSchool2019/Tracking/
+ 1855  cd ../
+ 1856  cd catching_
+ 1857  cd catching_ws/
+ 1858  cd src/catching_robot_dynamic_field/scripts/
+ 1859  ls
+ 1860  python ur_ball.py 
+ 1861  rqt
+ 1862  roscore
+ 1863  cd Documents/Education/SummerSchool2019/catching_ws/src/catching_robot_dynamic_field/scripts/
+ 1864  python ur_ball.py 
+ 1865  cd ../
+ 1866  roslaunch  catching_robot_dynamic_field camera_with_sending_obj_coord.launch
+ 1867  source devel/setup.bash 
+ 1868  roslaunch  catching_robot_dynamic_field camera_with_sending_obj_coord.launch
+ 1869  rqt
+ 1870  source devel/setup.bash 
+ 1871  rosrun catching_robot_dynamic_field ur_ball.py 
+ 1872  realsense-viewer 
+ 1873  ls
+ 1874  l
+ 1875  ls
+ 1876  l
+ 1877  cd Documents/Education/SummerSchool2019/catching_ws/
+ 1878  source devel/setup.bash 
+ 1879  roslaunch realsense2_camera 
+ 1880  roslaunch realsense2_camera rs_camera.launch align_depth:=true
+ 1881  cd Documents/Education/SummerSchool2019/catching_ws/
+ 1882  source devel/setup.bash 
+ 1883  roslaunch  catching_robot_dynamic_field camera_with_sending_obj_coord.launch
+ 1884  roslaunch  catching_robot_dynamic_field camera_with_sending_obj_coord.launch
+ 1885  source devel/setup.bash 
+ 1886  rosrun catching_robot_dynamic_field ur_ball.py 
+ 1887  roslaunch  catching_robot_dynamic_field camera_with_sending_obj_coord.launch
+ 1888  rosrun catching_robot_dynamic_field ur_ball.py 
+ 1889  roslaunch  catching_robot_dynamic_field camera_with_sending_obj_coord.launch
+ 1890  rosrun catching_robot_dynamic_field ur_ball.py 
+ 1891  roslaunch  catching_robot_dynamic_field camera_with_sending_obj_coord.launch
+ 1892  rosrun catching_robot_dynamic_field ur_ball.py 
+ 1893  roslaunch  catching_robot_dynamic_field camera_with_sending_obj_coord.launch
+ 1894  rosrun catching_robot_dynamic_field ur_ball.py 
+ 1895  roslaunch  catching_robot_dynamic_field camera_with_sending_obj_coord.launch
+ 1896  source devel/setup.bash 
+ 1897  roslaunch  catching_robot_dynamic_field camera_with_sending_obj_coord.launch
+ 1898  rqt
+ 1899  rviz
+ 1900  source devel/setup.bash 
+ 1901  roslaunch  catching_robot_dynamic_field camera_with_sending_obj_coord.launch
+ 1902  rowtf
+ 1903  roswtf
+ 1904  roslaunch  catching_robot_dynamic_field camera_with_sending_obj_coord.launch
+ 1905  source devel/setup.bash 
+ 1906  rosrun catching_robot_dynamic_field ur_ball.py 
+ 1907  source devel/setup.bash 
+ 1908  rosrun catching_robot_dynamic_field ur_ball.py 
+ 1909  source devel/setup.bash 
+ 1910  rosrun catching_robot_dynamic_field ur_ball.py 
+ 1911  roscore
+ 1912  cd Documents/Education/SummerSchool2019/
+ 1913  cd catching_ws/
+ 1914  ls
+ 1915  cd src/
+ 1916  cd ../
+ 1917  source devel/setup.bash 
+ 1918  roslaunch catching_robot_dynamic_field camera_with_sending_obj_coord.launch 
+ 1919  cd Documents/Education/SummerSchool2019/
+ 1920  source devel/setup.bash 
+ 1921  roslaunch catching_robot_dynamic_field camera_with_sending_obj_coord.launch 
+ 1922  cd catching_ws/
+ 1923  source devel/setup.bash 
+ 1924  roslaunch catching_robot_dynamic_field camera_with_sending_obj_coord.launch 
+ 1925  asd
+ 1926  ls
+ 1927  roslaunch catching_robot_dynamic_field camera_with_sending_obj_coord.launch 
+ 1928  realsense-viewer 
+ 1929  git push
+ 1930  git remote set-url origin git@github.com:Sarrasor/repo.git
+ 1931  git remote add origin https://{Sarrasor}:{Andjusticefor411}@github.com/{Sarrasor}/project.git
+ 1932  git push
+ 1933  cd Documents/Education/SummerSchool2019/
+ 1934  cd catching_ws/
+ 1935  source devel/setup.bash 
+ 1936  roslaunch catching_robot_dynamic_field camera_with_sending_obj_coord.launch 
+ 1937  roscore
+ 1938  roslaunch catching_robot_dynamic_field camera_with_sending_obj_coord.launch 
+ 1939  source devel/setup.bash 
+ 1940  roscore
+ 1941  roslaunch catching_robot_dynamic_field camera_with_sending_obj_coord.launch 
+ 1942  roslaunch realsense2_camera rs_camera.launch align_depth :=true filters:=pointcloud, temporal, spatial
+ 1943  roslaunch realsense2_camera rs_camera.launch align_depth :=true filters:=pointcloud
+ 1944  roslaunch realsense2_camera rs_camera.launch align_depth:=true filters:=pointcloud
+ 1945  roslaunch realsense2_camera rs_camera.launch align_depth:=true
+ 1946  roslaunch realsense2_camera rs_camera.launch align_depth:=true filters:=pointcloud, temporal, spatial
+ 1947  roslaunch realsense2_camera rs_camera.launch align_depth:=true filters:=pointcloud filters:=spatial
+ 1948  roslaunch realsense2_camera rs_camera.launch align_depth:=true filters:=pointcloud filters:=spatial,temporal
+ 1949  roslaunch realsense2_camera rs_camera.launch align_depth:=true filters:=pointcloud,temporal,spatial
+ 1950  rostopic hz /tracking_image 
+ 1951  rostopic hz /camera_pixel_to_camera_obj
+ 1952  rostopic hz /tracking_image 
+ 1953  roslaunch catching_robot_dynamic_field convert_point_stamped_to_file.launch 
+ 1954  rviz
+ 1955  rosbag record /camera/color/image_raw
+ 1956  source devel/setup.bash 
+ 1957  roslaunch catching_robot_dynamic_field catcher.launch 
+ 1958  source devel/setup.bash 
+ 1959  roslaunch catching_robot_dynamic_field catcher.launch 
+ 1960  rqt
+ 1961  rostopic echo /red_ball_xyz /
+ 1962  rostopic echo /red_ba
+ 1963  rostopic echo /red_ball_xyz /
+ 1964  rostopic echo /red_ball_xyz 
+ 1965  rostopic hz /red_ball_xyz 
+ 1966  rostopic echo /red_ball_xyz 
+ 1967  robag record /red_ball_xyz
+ 1968  rosbag record /red_ball_xyz
+ 1969  ls
+ 1970  rosbag play 2019-08-17-12-31-27.bag 
+ 1971  rosbag play --pause 2019-08-17-12-31-27.bag 
+ 1972  rosbag play 2019-08-17-12-31-27.bag 
+ 1973  rosbag record /red_ball_xyz
+ 1974  rosbag play 2019-08-17-12-36-49.bag 
+ 1975  rosbag record /red_ball_xyz
+ 1976  rosbag play 2019-08-17-12-39-24.bag 
+ 1977  rosbag record /red_ball_xyz
+ 1978  rostopic echo /red_ball_xyz 
+ 1979  git status
+ 1980  git push
+ 1981  git status
+ 1982  git commit
+ 1983  git push
+ 1984  git remote add
+ 1985  git remote add origin https://github.com/Lupasic/catching_robot_dynamic_field
+ 1986  git push
+ 1987  man man
+ 1988  whoami
+ 1989  head
+ 1990  ls
+ 1991  cd Downloads/
+ 1992  ls
+ 1993  nano test.txt
+ 1994  cat test.txt 
+ 1995  cd ../
+ 1996  cd Documents/Education/
+ 1997  ls
+ 1998  mkdir Bach2
+ 1999  cd Bach2
+ 2000  mkdir OS
+ 2001  cd OS
+ 2002  ls
+ 2003  mkdir Labs
+ 2004  cd Labs/
+ 2005  ls
+ 2006  mkdir week1
+ 2007  ls /usr/bin | grep "gcc"
+ 2008  man grep
+ 2009  grep -H
+ 2010  grep --help
+ 2011  ls /usr/bin | grep "gcc"
+ 2012  ls /usr/bin | grep "gcc" | sort -r
+ 2013  ls /usr/bin | grep "gcc" | sort -r >> ex1.txt
+ 2014  ls
+ 2015  cat ex1.txt 
+ 2016  ls
+ 2017  l
+ 2018  history > ex2.txt
