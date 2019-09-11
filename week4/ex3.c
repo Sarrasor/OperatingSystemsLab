@@ -1,3 +1,5 @@
+// Use "gcc ex3.c -o ex3 && ./ex3 <cmd>" to run <cmd> from shell  
+
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>

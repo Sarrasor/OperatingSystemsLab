@@ -1,3 +1,6 @@
+// Use "gcc ex4.c -o ex4 && ./ex4 ex3 pwd" to run ex3 from ex4
+// Use "gcc ex4.c -o ex4 && ./ex4 ex1" to run ex1 from ex4
+
 #include <stdio.h>
 #include <stdlib.h>
 #include <unistd.h>
