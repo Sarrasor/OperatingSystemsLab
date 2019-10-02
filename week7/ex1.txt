@@ -1,0 +1,4 @@
+I have examined ex2.c
+Output is:
+   text	   data	    bss	    dec	    hex	filename
+   2412	    656	      8	   3076	    c04	ex2
