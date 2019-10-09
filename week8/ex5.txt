@@ -1,0 +1,18 @@
+Physical address (1)				
+Virtual address (2)
+
+Comparison #1
+(1) Physically exists in RAM		
+(2) CPU generates it. Not real.
+
+Comparison #2
+(1) Can't be larger than RAM	
+(2) Can be larger than RAM
+
+Comparison #3
+(1) Causes protection and relocation problems								
+(2) Solution to protection and relocation problems
+
+Comparison #4
+(1) MMU accesses it	
+(2) Processes accesses it

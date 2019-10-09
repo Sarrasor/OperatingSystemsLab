@@ -1,0 +1,4 @@
+We have 2^16 virtual addresses since we have 16 bit virtual address.
+We have 2^16 / (8 * 1024) = 8 pages since every page is 8KB.
+
+So, we need 8 entries in a single-level linear page table.
