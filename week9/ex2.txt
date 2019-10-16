@@ -1,0 +1,8 @@
+Case 1: Increased missses. 
+If we pass page requests that all unique, we will get all misses.
+inputUnique.txt simulates this situation
+
+Case 2: Decreased misses.
+If we pass page requests that all the same, we will get #requests - 1 hits,
+since the first time we will get a page fault.
+inputSame.txt simulates this situation
