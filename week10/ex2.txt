@@ -1,0 +1,14 @@
+After linking:
+1189675 _ex2.txt
+1189675 ../week1/file.txt
+
+ find ../ -inum 1189675:
+../week1/file.txt
+../week10/_ex2.txt
+
+ find ../ -inum 1189675 -exec rm {} \;
+
+Deleted _ex2.txt and file.txt
+
+
+
