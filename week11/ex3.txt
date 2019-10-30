@@ -1,0 +1,16 @@
+When we run ex3_1.c we receive:
+---------
+Hello
+Hello
+---------
+
+When we run ex3_2.c we receive:
+---------
+Hello
+
+
+---------
+
+This happens because "\n" in printf. 
+String in printf is not flushed untill "\n" arrives, so parent and child
+will have the same buffer in ex3_1.c
