@@ -1,0 +1,70 @@
+Small file sizes does not influence the speed that much. Big file size
+comparison is shown below:
+
+Unmodified run:
+
+real	0m0.005s
+user	0m0.000s
+sys		0m0.005s
+
+With -DBUF_SIZE=1
+
+real	0m0.065s
+user	0m0.019s
+sys		0m0.046s
+
+With -DBUF_SIZE=10
+
+real	0m0.010s
+user	0m0.000s
+sys	0m0.010s
+
+With -DBUF_SIZE=100
+
+real	0m0.002s
+user	0m0.002s
+sys	0m0.000s
+
+With -DBUF_SIZE=1000
+
+real	0m0.001s
+user	0m0.000s
+sys	0m0.001s
+
+
+
+If we set O_SYNC flag:
+
+Unmodified run:
+
+real	0m0.139s
+user	0m0.001s
+sys	0m0.006s
+
+With -DBUF_SIZE=1
+
+Didn't terminate in 3 minutes, so I stopped it
+
+With -DBUF_SIZE=10
+
+real	0m13.279s
+user	0m0.005s
+sys	0m0.376s
+
+With -DBUF_SIZE=100
+
+real	0m1.329s
+user	0m0.001s
+sys	0m0.040s
+
+With -DBUF_SIZE=1000
+
+real	0m0.131s
+user	0m0.000s
+sys	0m0.005s
+
+
+So, we can see that frequent writes to the disk introduce very big delays.
+Buffers are very important in this situation for the performance improvement.
+
+
